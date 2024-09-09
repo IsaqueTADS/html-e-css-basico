@@ -1,1 +1,13 @@
 ************Anotações**********
+
+
+Estilos de browser, reset, normalize,reboot.
+
+css segue ordem de herança, códigos que tem color definido pelo navegador por exemplo 
+não seria mudado vc chamando body teria que chamar ele tipo
+
+a {
+  color: a cor:
+  ou
+  color: inherit => siguinifica herança
+}

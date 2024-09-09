@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  texto susss
+  <div>Novo sus spanoso</div>
+  <a href="#">link totalmente serio, confia</a>
+  <strong>Eu sou cabuloso</strong>
+  <h1>Titulo h1</h1>
+  <div>essa é um div com <span>Novo sus spanoso</span> um span dentro de si </div>
+
+</body>
+
+</html>
+
+h1 {
+  background: #ddd;
+  width: 300px;
+}
+
+span,
+a,
+strong {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+div,
+h1,
+p {
+  border: 1px solid rgba(255, 0, 0, 0.5);
+}
