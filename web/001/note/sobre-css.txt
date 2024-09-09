@@ -1,0 +1,22 @@
+*SELETORES*
+h1 , p
+
+virgulas permite acessar mais de um elemnto
+
+p a
+
+
+h1,
+a {
+  color: red;
+}
+
+html body a {
+  color: rgb(77, 53, 10);
+}
+
+html,
+body,
+a {
+  color: rgb(77, 53, 10);
+}
