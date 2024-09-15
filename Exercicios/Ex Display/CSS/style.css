@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Arial;
+  margin: 150px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin: 0px;
+}
+
+.products {
+  background: #111;
+  color: #fff;
+  margin: 25px;
+  padding: 35px;
+  border-radius: 4px;
+ 
+}
+span {
+  color: #febe01;
+}
+
+p {
+  color: #b2b2b2;
+}
+ a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: #332200;
+  background: #febe01;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+body img {
+border-radius: 8PX;
+margin: 10px;
+}
+
