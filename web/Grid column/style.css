@@ -1,8 +1,21 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
 
 
+.foto {
+  grid-column: 1 / -1;
+}
 
+.descrition {
+  grid-column: 1 / -1;
+}
 
-
+.buy {
+  grid-column: 1 / 3;
+}
 
 /* Estilos Gerais */
 
