@@ -25,7 +25,10 @@ h2 {
 
 .grid {
   display: grid;
+  height: 800px;
   grid-template-columns: auto auto;
   gap: 20px;
+  align-content: space-evenly;
   justify-content: space-evenly;
+  place-content: center space-evenly;
 }
