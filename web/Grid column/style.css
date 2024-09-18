@@ -1,24 +1,33 @@
 .grid {
   display: grid;
-  gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: auto  auto; */
+  /* grid-auto-rows: 200px; */
 }
-
-.title {
+.title{
   grid-column: 2;
-  text-align: right;
 }
 .price {
-  place-self: start end;
+  
+  grid-area: 3/2;
 }
-.buy {
-  align-self: start;
-  text-align: center;
-  /* justify-self: center; */
+.foto {
+  grid-column: 2;
+  grid-row: 2;
 }
 .descrition {
-  text-align: right;
+  grid-column: 2;
+
+  grid-row: 5;
 }
+.buy{
+  grid-column: 2;
+
+  grid-row: 4;
+  text-align: center;
+}
+
 /* Estilos Gerais */
 
 body {
