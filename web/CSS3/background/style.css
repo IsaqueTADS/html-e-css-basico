@@ -1,0 +1,16 @@
+.bike {
+  height: 600px;
+  background-color: aqua;
+  background-image: url("./img/bicicleta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  
+}
+
+h1 {
+  margin:  auto;
+  background-color: white;
+  padding: 1rem 2rem;
+}
