@@ -1,0 +1,10 @@
+
+<blockqoute> = marca uma citção extensa e recebe um atributo cite com a fonte. <blockqoute cite = "vozes da cabeça" >
+
+<q> = citação dentro de um paragrafo <q> o computador é um burro muito rápido </q> tambem rece o cite => <q cite = "guanabara">
+
+<cite> = apenas para obra
+
+<em> = da enfase a um conteudo.
+
+strong = parte importante do conteudo.
