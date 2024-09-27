@@ -1,0 +1,6 @@
+<main> = conteudo principal
+<nav> = navegação
+<section> e <article> = definir regoão do site
+<aside> = região do site de conteudo extra
+<footer> = rodapé
+<header> = cabeçalho
