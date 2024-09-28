@@ -31,3 +31,13 @@ a:active {
   background-color: #fda;
   color: 731;
 } */
+
+ol li:first-child {
+  background-color: #371;
+}
+ol li:nth-child(even) {
+  background-color: #217;
+}
+ol li:last-child {
+  background-color: #caf;
+}
