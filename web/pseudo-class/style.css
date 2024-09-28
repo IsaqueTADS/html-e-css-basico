@@ -32,12 +32,19 @@ a:active {
   color: 731;
 } */
 
-ol li:first-child {
+.lista-1 li:first-child {
   background-color: #371;
 }
-ol li:nth-child(even) {
+.lista-1 li:nth-child(even) {
   background-color: #217;
 }
-ol li:last-child {
+.lista-1 li:last-child {
   background-color: #caf;
+}
+
+.lista-3 li:not(:first-child, :last-child, .terceiro) {
+  background-color: #caf;
+}
+h2:not(.contato) {
+  text-decoration: underline;
 }
