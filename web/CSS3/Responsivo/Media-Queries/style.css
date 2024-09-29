@@ -1,0 +1,49 @@
+img {
+  width: 100%;
+  display: block;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+h1 {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 600px) {
+  div {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    background-image: radial-gradient(circle, green, rgb(111, 223, 111));
+  }
+  /* img {
+    display: none;
+  }
+} */
+
+/* @media (min-width: 1000px), (max-width: 500px) {
+  html {
+    font-size: 150%;
+  }
+} */
+@media (min-width: 700px) and (max-width: 900px) {
+  p {
+    background-color: lightblue;
+  }
+}
+
+/* @media screen {
+  body {
+    background-color: pink;
+  }
+}
+@media print {
+  body {
+    background-color: pink;
+  }
+} */
