@@ -18,6 +18,12 @@ div {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
 }
+
+@media (min-width: 400px) {
+  .gosto {
+    grid-row: 2; /* permite mover um conteudo para uma linha distinta */
+    /* order: 2; */
+  }
 }
 
 p {
