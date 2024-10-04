@@ -1,0 +1,31 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, 1fr); */
+  /* grid-template-columns: repeat(auto-fit, 300px); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.galeria {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, 1fr); */
+  /* grid-template-columns: repeat(auto-fit, 300px); */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 400px) {
+  .gosto {
+    grid-row: 2; /* permite mover um conteudo para uma linha distinta */
+    /* order: 2; */
+  }
+}
+
+p {
+  font-size: 2rem;
+}
