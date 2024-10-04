@@ -7,6 +7,17 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-top: auto;
+  margin-bottom: auto;
+  */
+  margin: 100px auto;
+
+} 
+.texto {
+  align-self: center;
 }
 
 .cover img {
@@ -16,5 +27,6 @@ img {
 }
 
 p {
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
+  max-width: 60ch;
 }
